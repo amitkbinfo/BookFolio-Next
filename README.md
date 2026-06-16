@@ -39,7 +39,7 @@ A premium book catalog application built with **Next.js App Router**, **Firebase
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/bookfolio.git
+git clone https://github.com/amitkbinfo/BookFolio-Next.git
 cd bookfolio
 ```
 
