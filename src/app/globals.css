@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ── Base ─────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; }
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #faf8f5;
+  color: #1c1713;
+  font-family: 'Inter', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ── Typography ─────────────────────────────── */
+.font-display {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+h1, h2, h3, .heading {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+/* ── Scrollbar ───────────────────────────── */
+::-webkit-scrollbar        { width: 6px; }
+::-webkit-scrollbar-track  { background: #f2ede5; }
+::-webkit-scrollbar-thumb  { background: #b9ad98; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #8b7760; }
+
+/* ── Selection ───────────────────────────── */
+::selection {
+  background: #fde68a;
+  color: #1c1713;
+}
+
+/* ── Link focus ring ─────────────────────── */
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid #d97706;
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* ── Utility classes ─────────────────────── */
+@layer utilities {
+  .text-balance { text-wrap: balance; }
+
+  .bg-grain {
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.025'/%3E%3C/svg%3E");
+  }
+
+  .link-hover {
+    @apply relative after:absolute after:bottom-0 after:left-0 after:h-px after:w-0 after:bg-amber-500 after:transition-all after:duration-300 hover:after:w-full;
+  }
+}
+
+/* ── Card hover lift ─────────────────────── */
+.card-lift {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.card-lift:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 32px rgba(28, 23, 19, 0.12);
+}
+
+/* ── Gradient text ─────────────────────── */
+.gradient-text {
+  background: linear-gradient(135deg, #92400e 0%, #d97706 50%, #b45309 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* ── Page transition ─────────────────────── */
+.page-enter {
+  animation: fadeIn 0.4s ease-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0);   }
+}
+
+/* ── Rating stars ─────────────────────── */
+.star-filled { color: #f59e0b; }
+.star-empty  { color: #d1c8ba; }
+
+/* ── Toast overrides ─────────────────────── */
+.react-hot-toast-container {
+  font-family: 'Inter', sans-serif !important;
+}
