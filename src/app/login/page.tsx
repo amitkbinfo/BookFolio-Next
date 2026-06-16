@@ -88,14 +88,7 @@ export default function LoginPage() {
         <div className="absolute top-0 right-0 w-96 h-96 bg-amber-500/10 rounded-full blur-3xl translate-x-1/2 -translate-y-1/3 pointer-events-none" />
 
         {/* Logo */}
-        <Link href="/" className="relative flex items-center gap-2">
-          <div className="w-8 h-8 bg-amber-500 rounded-sm flex items-center justify-center">
-            <FiBook className="text-ink-900 w-4 h-4" strokeWidth={2.5} />
-          </div>
-          <span className="font-display text-xl font-bold text-cream">
-            Book<span className="text-amber-400">Folio</span>
-          </span>
-        </Link>
+        <div></div>
 
         {/* Quote */}
         <div className="relative">
