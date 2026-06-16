@@ -39,7 +39,7 @@ export default function BookCard({ book, className }: BookCardProps) {
       {/* Cover Image */}
       <div className="relative h-52 overflow-hidden bg-parchment">
         <Image
-          src={book.coverImage || "https://i.ibb.co.com/0RZBD1gN/On-the-Origin-of-Species.jpg"}
+          src={book.coverImage || "https://i.ibb.co/0RZBD1gN/On-the-Origin-of-Species.jpg"}
           alt={`${book.title} cover`}
           fill
           loading='lazy'

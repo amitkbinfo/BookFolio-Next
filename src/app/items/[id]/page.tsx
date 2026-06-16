@@ -73,7 +73,7 @@ export default function BookDetailPage() {
             <div className="sticky top-24">
               <div className="relative aspect-[2/3] rounded-2xl overflow-hidden shadow-2xl shadow-ink-900/20 bg-parchment">
                 <Image
-                  src={book.coverImage || "https://i.ibb.co.com/0RZBD1gN/On-the-Origin-of-Species.jpg"}
+                  src={book.coverImage || "https://i.ibb.co/0RZBD1gN/On-the-Origin-of-Species.jpg"}
                   alt={`${book.title} cover`}
                   fill
                   loading='lazy'

@@ -13,7 +13,7 @@ export const BOOKS: Book[] = [
     price: 14.49,
     rating: 4.8,
     coverImage:
-      "https://i.ibb.co.com/9kzWZ91s/The-Hobbit.webp",
+      "https://i.ibb.co/9kzWZ91s/The-Hobbit.webp",
     pages: 320,
     language: "English",
     publisher: "Mariner Books",
@@ -33,7 +33,7 @@ export const BOOKS: Book[] = [
     price: 15.99,
     rating: 4.6,
     coverImage:
-      "https://i.ibb.co.com/Z6rdWWx4/The-Silmarillion.jpg",
+      "https://i.ibb.co/Z6rdWWx4/The-Silmarillion.jpg",
     pages: 480,
     language: "English",
     publisher: "Mariner Books",
@@ -54,7 +54,7 @@ export const BOOKS: Book[] = [
     price: 13.99,
     rating: 4.7,
     coverImage:
-      "https://i.ibb.co.com/k2RBz0Vt/The-Left-Hand-of-Darkness.jpg",
+      "https://i.ibb.co/k2RBz0Vt/The-Left-Hand-of-Darkness.jpg",
     pages: 336,
     language: "English",
     publisher: "Ace Books",
@@ -74,7 +74,7 @@ export const BOOKS: Book[] = [
     price: 15.49,
     rating: 4.5,
     coverImage:
-      "https://i.ibb.co.com/R4hhVvs2/Dune-Messiah.jpg",
+      "https://i.ibb.co/R4hhVvs2/Dune-Messiah.jpg",
     pages: 352,
     language: "English",
     publisher: "Ace Books",
@@ -94,7 +94,7 @@ export const BOOKS: Book[] = [
     price: 11.99,
     rating: 4.6,
     coverImage:
-      "https://i.ibb.co.com/s9GLkyLf/The-Hound-of-the-Baskervilles.jpg",
+      "https://i.ibb.co/s9GLkyLf/The-Hound-of-the-Baskervilles.jpg",
     pages: 256,
     language: "English",
     publisher: "Penguin Classics",
@@ -114,7 +114,7 @@ export const BOOKS: Book[] = [
     price: 12.49,
     rating: 4.4,
     coverImage:
-      "https://i.ibb.co.com/DD6Tgwp5/The-Maltese-Falcon.jpg",
+      "https://i.ibb.co/DD6Tgwp5/The-Maltese-Falcon.jpg",
     pages: 224,
     language: "English",
     publisher: "Vintage Crime",
@@ -135,7 +135,7 @@ export const BOOKS: Book[] = [
     price: 14.99,
     rating: 4.5,
     coverImage:
-      "https://i.ibb.co.com/RGkP5xFg/In-Cold-Blood.jpg",
+      "https://i.ibb.co/RGkP5xFg/In-Cold-Blood.jpg",
     pages: 368,
     language: "English",
     publisher: "Vintage",
@@ -155,7 +155,7 @@ export const BOOKS: Book[] = [
     price: 13.49,
     rating: 4.8,
     coverImage:
-      "https://i.ibb.co.com/WpcpxrK4/The-Diary-of-a-Young-Girl.jpg",
+      "https://i.ibb.co/WpcpxrK4/The-Diary-of-a-Young-Girl.jpg",
     pages: 352,
     language: "English",
     publisher: "Bantam",
@@ -176,7 +176,7 @@ export const BOOKS: Book[] = [
     price: 15.99,
     rating: 4.8,
     coverImage:
-      "https://i.ibb.co.com/d4FS2sZL/Long-Walk-to-Freedom.jpg",
+      "https://i.ibb.co/d4FS2sZL/Long-Walk-to-Freedom.jpg",
     pages: 656,
     language: "English",
     publisher: "Back Bay Books",
@@ -196,7 +196,7 @@ export const BOOKS: Book[] = [
     price: 11.49,
     rating: 4.7,
     coverImage:
-      "https://i.ibb.co.com/C54JmkNr/Meditations.jpg",
+      "https://i.ibb.co/C54JmkNr/Meditations.jpg",
     pages: 304,
     language: "English",
     publisher: "Modern Library",
@@ -216,7 +216,7 @@ export const BOOKS: Book[] = [
     price: 12.99,
     rating: 4.7,
     coverImage:
-      "https://i.ibb.co.com/F4GNj292/Fahrenheit-451.jpg",
+      "https://i.ibb.co/F4GNj292/Fahrenheit-451.jpg",
     pages: 256,
     language: "English",
     publisher: "Simon & Schuster",
@@ -237,7 +237,7 @@ export const BOOKS: Book[] = [
     price: 12.49,
     rating: 4.5,
     coverImage:
-      "https://i.ibb.co.com/S49ZhjWL/The-Prince.jpg",
+      "https://i.ibb.co/S49ZhjWL/The-Prince.jpg",
     pages: 176,
     language: "English",
     publisher: "Penguin Classics",
@@ -257,7 +257,7 @@ export const BOOKS: Book[] = [
     price: 18.99,
     rating: 4.9,
     coverImage:
-      "https://i.ibb.co.com/1YSVvxHy/The-Gutenberg-Bible.jpg",
+      "https://i.ibb.co/1YSVvxHy/The-Gutenberg-Bible.jpg",
     pages: 1282,
     language: "Latin",
     publisher: "Taschen",
@@ -277,7 +277,7 @@ export const BOOKS: Book[] = [
     price: 17.99,
     rating: 4.8,
     coverImage:
-      "https://i.ibb.co.com/0xJTbrq/First-Folio.jpg",
+      "https://i.ibb.co/0xJTbrq/First-Folio.jpg",
     pages: 928,
     language: "English",
     publisher: "W.W. Norton",
@@ -298,7 +298,7 @@ export const BOOKS: Book[] = [
     price: 16.49,
     rating: 4.8,
     coverImage:
-      "https://i.ibb.co.com/0RZBD1gN/On-the-Origin-of-Species.jpg",
+      "https://i.ibb.co/0RZBD1gN/On-the-Origin-of-Species.jpg",
     pages: 502,
     language: "English",
     publisher: "Penguin Classics",
@@ -319,7 +319,7 @@ export const BOOKS: Book[] = [
     price: 15.99,
     rating: 4.5,
     coverImage:
-      "https://i.ibb.co.com/1gNmd72/Ulysses.jpg",
+      "https://i.ibb.co/1gNmd72/Ulysses.jpg",
     pages: 736,
     language: "English",
     publisher: "Vintage",
@@ -339,7 +339,7 @@ export const BOOKS: Book[] = [
     price: 19.49,
     rating: 5.0,
     coverImage:
-      "https://i.ibb.co.com/5WX6r5LP/Birds-of-America.jpg",
+      "https://i.ibb.co/5WX6r5LP/Birds-of-America.jpg",
     pages: 435,
     language: "English",
     publisher: "Abbeville Press",
@@ -359,7 +359,7 @@ export const BOOKS: Book[] = [
     price: 17.49,
     rating: 4.8,
     coverImage:
-      "https://i.ibb.co.com/bjkmCy9d/The-Book-of-Kells.jpg",
+      "https://i.ibb.co/bjkmCy9d/The-Book-of-Kells.jpg",
     pages: 680,
     language: "Latin",
     publisher: "Thames & Hudson",
@@ -380,7 +380,7 @@ export const BOOKS: Book[] = [
     price: 14.99,
     rating: 4.7,
     coverImage:
-      "https://i.ibb.co.com/gLDzbwd2/The-Great-Gatsby.jpg",
+      "https://i.ibb.co/gLDzbwd2/The-Great-Gatsby.jpg",
     pages: 180,
     language: "English",
     publisher: "Scribner",
@@ -401,7 +401,7 @@ export const BOOKS: Book[] = [
     price: 13.99,
     rating: 4.8,
     coverImage:
-      "https://i.ibb.co.com/Z1w6fY0d/Alice-s-Adventures-in-Wonderland.jpg",
+      "https://i.ibb.co/Z1w6fY0d/Alice-s-Adventures-in-Wonderland.jpg",
     pages: 272,
     language: "English",
     publisher: "Penguin Classics",
@@ -421,7 +421,7 @@ export const BOOKS: Book[] = [
     price: 16.99,
     rating: 4.6,
     coverImage:
-      "https://i.ibb.co.com/602mchKR/Don-Quixote.jpg",
+      "https://i.ibb.co/602mchKR/Don-Quixote.jpg",
     pages: 992,
     language: "English",
     publisher: "Penguin Classics",
@@ -442,7 +442,7 @@ export const BOOKS: Book[] = [
     price: 12.99,
     rating: 4.7,
     coverImage:
-      "https://i.ibb.co.com/8LryQCSn/Frankenstein.jpg",
+      "https://i.ibb.co/8LryQCSn/Frankenstein.jpg",
     pages: 280,
     language: "English",
     publisher: "Penguin Classics",
@@ -460,7 +460,7 @@ export const BOOKS: Book[] = [
   fullDescription: 'Wrongfully imprisoned, Edmond Dantès escapes captivity and transforms himself into the mysterious Count of Monte Cristo. Armed with immense wealth and a relentless desire for justice, he embarks on one of literature’s greatest revenge stories. First editions and early printings remain highly sought after by collectors worldwide.',
   price: 16.99,
   rating: 4.8,
-  coverImage: 'https://i.ibb.co.com/TDKP0CJz/The-Count-of-Monte-Cristo.jpg',
+  coverImage: 'https://i.ibb.co/TDKP0CJz/The-Count-of-Monte-Cristo.jpg',
   pages: 1276,
   language: 'English',
   publisher: 'Penguin Classics',
@@ -478,7 +478,7 @@ export const BOOKS: Book[] = [
   fullDescription: 'Captain Nemo and his extraordinary submarine, the Nautilus, take readers on an unforgettable journey through the mysteries of the deep sea. Considered one of the foundational works of science fiction, the novel continues to inspire explorers, engineers, and dreamers alike.',
   price: 14.99,
   rating: 4.7,
-  coverImage: 'https://i.ibb.co.com/1fmZd8LH/Twenty-Thousand-Leagues-Under-the-Sea.jpg',
+  coverImage: 'https://i.ibb.co/1fmZd8LH/Twenty-Thousand-Leagues-Under-the-Sea.jpg',
   pages: 416,
   language: 'English',
   publisher: 'Wordsworth Editions',
